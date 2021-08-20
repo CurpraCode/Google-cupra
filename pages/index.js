@@ -1,12 +1,11 @@
 import Avatar from "../components/Avatar";
 import Head from "next/head";
 import GoSearch from "../components/GoSearch";
-import Buttons from "../components/Buttons";
 import Footer from "../components/Footer";
 
 export default function Home() {
   return (
-    <div className="flex flex-col  justify-center h-screen">
+    <div>
       <Head>
         <title>Google-Curpra</title>
         <meta
@@ -17,7 +16,7 @@ export default function Home() {
       </Head>
       <Avatar url="https://lh3.googleusercontent.com/ogw/ADea4I4sYM_TfYV7jnfcGwoCizgsrdrIrodg1KPKqm73QA=s32-c-mo" />
       <GoSearch url="https://www.google.com.ng/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" />
-      <Buttons />
+      
 
       <Footer />
     </div>
